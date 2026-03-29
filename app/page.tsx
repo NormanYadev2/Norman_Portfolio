@@ -11,7 +11,7 @@ export default function Home() {
   const [displayText, setDisplayText] = useState("")
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
-  const dynamicTexts = ["Hey there I'm Norman", "I like coffee", "I build AI systems", "I love automation"]
+  const dynamicTexts = ["Hey there I'm Norman", "3rd year undergraduate", "I build AI systems using n8n", "Skilled in LLM & API Integration"]
 
   useEffect(() => {
     const currentText = dynamicTexts[currentIndex]
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-background shadow-xl">
               <img
-                src="/male-ai-ml-engineer-professional-headshot.jpg"
+                src="/Norman.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
 
           {/* Title */}
-          <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-6">AI / ML Engineer</p>
+          <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-6">AI Automation Engineer</p>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-12 min-h-[80px] flex items-center justify-center">
             <span>
@@ -162,18 +162,13 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl font-bold mb-8 text-balance">Here is a little background</h3>
               <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
                 <p>
-                  I am a Software / Machine Learning Engineer currently based in the United Kingdom. I did my
-                  undergraduate in Mechatronic Engineering in South Africa, and later completed my Masters degree in
-                  Computer Science with Artificial Intelligence at the University of Nottingham in the United Kingdom.
+                  I am Norman Yadev, an AI and Data Science undergraduate at IIT, currently in my 3rd year. I am based in Wattala, Sri Lanka, and actively seeking full-time or part-time opportunities as an AI Automation Engineer, with a strong preference for remote roles.
                 </p>
                 <p>
-                  I absolutely love all things to do with AI, robots and code. I specialize in building intelligent
-                  systems that leverage deep learning, automation workflows, and agentic AI to solve real-world
-                  problems.
+                  I specialize in building AI-driven automation systems, including chatbots, voice agents, and cold outreach automation workflows. I work extensively with tools like n8n, APIs, and large language models to design scalable, real-world solutions.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring the latest AI research, experimenting with n8n
-                  automations, or contributing to open-source projects in the ML community.
+                  I’m passionate about applying AI to solve practical business problems. I enjoy experimenting with automation systems, optimizing workflows, and continuously learning new advancements in AI and machine learning.
                 </p>
               </div>
             </div>

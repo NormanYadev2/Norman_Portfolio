@@ -19,13 +19,13 @@ export default function ContactPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" asChild>
-                <a href="mailto:hello@example.com">
+                <a href="mailto:yadevrv@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Send Email
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/normanyadev/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-4 w-4" />
                   Connect on LinkedIn
                 </a>
@@ -36,8 +36,8 @@ export default function ContactPage() {
               <div className="flex flex-col items-center gap-3 p-6 bg-muted/30 rounded-lg">
                 <Mail className="h-8 w-8 text-primary" />
                 <h3 className="font-semibold">Email</h3>
-                <a href="mailto:hello@example.com" className="text-sm text-muted-foreground hover:text-foreground">
-                  hello@example.com
+                <a href="mailto:yadevrv@gmail.com" className="text-sm text-muted-foreground hover:text-foreground">
+                  yadevrv@gmail.com
                 </a>
               </div>
 
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 <Linkedin className="h-8 w-8 text-primary" />
                 <h3 className="font-semibold">LinkedIn</h3>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/normanyadev/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground"
@@ -58,7 +58,7 @@ export default function ContactPage() {
                 <Github className="h-8 w-8 text-primary" />
                 <h3 className="font-semibold">GitHub</h3>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/NormanYadev2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground"

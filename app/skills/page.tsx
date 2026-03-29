@@ -9,63 +9,51 @@ export default function SkillsPage() {
 
   const skillCategories = [
     {
+      category: "Automation & Tools",
+      skills: [
+        { name: "n8n", level: 98 },
+        { name: "Docker", level: 80 },
+        { name: "Git", level: 90 },
+        { name: "GitHub", level: 85 },
+      ],
+    },
+    {
       category: "AI & Machine Learning",
       skills: [
-        { name: "Scikit-learn", level: 80 },
-        { name: "TensorFlow", level: 85 },
-        { name: "PyTorch", level: 90 },
-        { name: "XGBoost", level: 75 },
-        { name: "LangChain", level: 88 },
+        { name: "Scikit-learn", level: 85 },
+        { name: "TensorFlow", level: 80 },
+        { name: "PyTorch", level: 80 },
+        { name: "Crew AI", level: 90 },
+        { name: "Google ADK", level: 70 },
       ],
     },
     {
       category: "Deep Learning",
       skills: [
         { name: "Neural Networks", level: 92 },
-        { name: "Computer Vision", level: 85 },
-        { name: "NLP", level: 88 },
-        { name: "GANs", level: 75 },
-        { name: "Transformers", level: 90 },
+        { name: "Computer Vision", level: 80 },
+        { name: "NLP", level: 80 },
       ],
     },
     {
       category: "Programming Languages",
       skills: [
         { name: "Python", level: 95 },
-        { name: "JavaScript/TypeScript", level: 90 },
-        { name: "Go", level: 70 },
+        { name: "JavaScript/TypeScript", level: 70 },
         { name: "SQL", level: 85 },
         { name: "R", level: 65 },
       ],
     },
-    {
-      category: "Web Development",
-      skills: [
-        { name: "Next.js", level: 92 },
-        { name: "React", level: 90 },
-        { name: "Node.js", level: 85 },
-        { name: "FastAPI", level: 88 },
-        { name: "Tailwind CSS", level: 95 },
-      ],
-    },
-    {
-      category: "Automation & Tools",
-      skills: [
-        { name: "n8n", level: 95 },
-        { name: "Docker", level: 85 },
-        { name: "Kubernetes", level: 75 },
-        { name: "Git", level: 90 },
-        { name: "CI/CD", level: 80 },
-      ],
-    },
+    
+    
     {
       category: "Cloud & Databases",
       skills: [
-        { name: "AWS", level: 82 },
-        { name: "PostgreSQL", level: 88 },
+        { name: "AWS", level: 80 },
+        { name: "PostgreSQL", level: 85 },
         { name: "Redis", level: 75 },
-        { name: "MongoDB", level: 80 },
-        { name: "Supabase", level: 85 },
+        { name: "MongoDB", level: 85 },
+        { name: "Qdrant", level: 85 },
       ],
     },
   ]
@@ -128,15 +116,15 @@ export default function SkillsPage() {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>AWS Certified Solutions Architect - Professional</span>
+                  <span>Associate AI Engineer for Developers From Datacamp</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>TensorFlow Developer Certificate</span>
+                  <span>AWS Cloud Practitioner (CLF-C02) From Datacamp</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Deep Learning Specialization - Coursera</span>
+                  <span>Machine Learning Engineer From Datacamp</span>
                 </li>
               </ul>
             </div>

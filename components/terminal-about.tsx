@@ -15,9 +15,9 @@ export function TerminalAbout() {
   const [showCursor, setShowCursor] = useState(true)
 
   const commands: Command[] = [
-    { command: "$ whoami", output: "AI Engineer | Automation Builder" },
-    { command: "$ stack", output: "Next.js • Go • Python • n8n • LLMs" },
-    { command: "$ mission", output: "Build intelligent systems that scale" },
+    { command: "$ whoami", output: "AI Automation Engineer" },
+    { command: "$ stack", output: "n8n • python • LLMs • API • Prompt Engineering" },
+    { command: "$ mission", output: "Automate workflows with scalable AI systems" },
   ]
 
   // Cursor blink effect
